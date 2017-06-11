@@ -1,0 +1,66 @@
+/* ---------------------------------------------------
+
+eIndex CSS - Customization Style
+
+@cssAuthor Bojan Drangovski
+@contact bojandrango@gmail.com
+
+@date Feb / March 2016
+
+@NOTE
+
+	To keep the core CSS in order and fully functional,
+  make your changes and customizations in this CSS file
+  (customization.css) instead of doing that in core CSS
+  and please add desciptive comments for each new block
+  of code.
+
+--------------------------------------------------- */
+
+
+/* ---------------------------------------------------
+
+INFO TILES CUSTOM ICONS
+
+--------------------------------------------------- */
+.info-tile-icon > span.it-payments:before {
+	content: "\f108";
+}
+.info-tile-icon > span.it-students:before {
+	content: "\f10b";
+}
+.info-tile-icon > span.it-archive:before {
+	content: "\f115";
+}
+
+
+/* ---------------------------------------------------
+
+LABELS PLACEHOLDERS ( These are only for preview purpose. Remove if not needed anymore.)
+
+--------------------------------------------------- */
+.label-placeholder {
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding: 10px 0px;
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-color: #dce2e3;
+}
+.label-placeholder:first-of-type {
+	padding: 0px 0px 10px 0px;
+}
+.label-placeholder:last-of-type {
+	border: 0px;
+	padding-bottom: 0px;
+}
+.label-placeholder > p {
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'osreg';
+	font-size: 13px;
+	color: #808181;
+}
